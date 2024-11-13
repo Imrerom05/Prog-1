@@ -1,0 +1,37 @@
+-----------
+Eindom
+-----------
++ kommunenummer: int
++ kommunenavn: String
++ gårdsnummer: int
++ bruksnummer: int
++ bruksnavn: String 
++ areal: double 
++ navn: String 
+------------
++ getBoligKode(): int
++ getAreal(): double
++ getGårdsnumer(): int
++ toString(): String
+-------------
+      ^
+      |
+      |
+---------------
+Eindomsregisteret
+---------------
+ArrayList<Eindom> eindomer
+---------------
++ newEindom(int kommunenummer, String kommunenavn, int gårdsnummer, int bruksnummer, String bruksnavn, double areal, String navn)
++ antEindomer(): int
++ fjernEindom(String boligKode)
++ finnEindom(String boligKode): Eindom 
++ snittArial(): double
++ finnMedGårdsnummer(int gårdsnummer): ArrayList<Eindom>
+---------------
+
+
+
+Kobling
+Cohesion
+
